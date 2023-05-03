@@ -225,8 +225,6 @@ void sortare(nod *&rad, int &x, int z){
         x = rad->info+1;
         sortare(rad, x, z);
     }
-
-
 }
 
 int main()
@@ -252,6 +250,7 @@ int main()
             int z;
             fin>>z;
             sortare(rad, x, z);
+            cout<<"\n";
         }
 
     }
